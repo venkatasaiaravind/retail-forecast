@@ -20,7 +20,7 @@ st.markdown("Forecast future sales using Prophet and find the **optimal price** 
 # -------------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv('../data/train.csv', low_memory=False, dtype={'StateHoliday': str})
+    df = pd.read_csv('data/train.csv', low_memory=False, dtype={'StateHoliday': str})
     df['Date'] = pd.to_datetime(df['Date'])
     return df
 
