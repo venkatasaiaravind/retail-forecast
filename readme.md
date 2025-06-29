@@ -80,14 +80,6 @@ streamlit run app/app.py
 
 ---
 
-## 📷 Screenshots
-
-| Forecast Graph | Revenue Optimization |
-| -------------- | -------------------- |
-|                |                      |
-
----
-
 ## 📌 Deployment
 
 Deployed via [Streamlit Cloud](https://share.streamlit.io)
